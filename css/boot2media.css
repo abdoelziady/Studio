@@ -1,0 +1,67 @@
+
+/* small */
+@media (max-width:767px)
+{
+    
+.head .navbar-expand-lg .navbar-brand
+{
+    font-size:20px;
+}
+    
+    .head .head-text h1
+{
+    font-weight:500;
+    font-size:23px;
+}
+
+.head .head-text p
+{
+    font-size:60px;
+    font-weight:700;
+}
+
+    .PORTFOLIO .port img
+{
+    width:250px;
+    height:180px;
+}
+    .about .priabout h3,.about .afabout h3 
+{
+    font-size:21px;
+}
+
+.about .priabout p,.about .afabout p 
+{
+    font-size:13px;
+}
+    
+  .team .col-md-3,.col-sm-6
+    {
+        padding-left:125px;
+        padding-bottom:20px;
+    }
+
+}
+
+
+/* medium */
+@media (min-width:768px) and (max-width:991px)
+{
+    .team .col-md-3,.col-sm-6
+    {
+        padding-left:0px;
+        padding-bottom:20px;
+    }
+}
+
+/* large */
+@media (min-width:992px) and (max-width:1199px)
+{
+     
+}
+
+/* Default:: xlarge */
+@media (min-width:1200px) 
+{
+    
+}

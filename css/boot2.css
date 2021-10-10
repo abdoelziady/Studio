@@ -1,0 +1,310 @@
+ /*  color:#FEC503;
+color:white */
+/* h1 p of all page */
+p
+{
+      color:#716d6d; 
+}
+
+.services h2, .PORTFOLIO h2,.about h2,.team h2,.footer h2
+{
+    text-transform:uppercase;
+    font-weight:700;
+    letter-spacing:1px;
+    padding-top:70px;
+}
+
+.services p,.PORTFOLIO p ,.about p ,.team p,.footer p
+{
+    font-size:18px;
+    font-weight:400;
+    padding-bottom:50px;
+}
+
+/* Start Header */
+
+.head
+{
+    background:url(../img/header-bg.jpg) center center  no-repeat;
+        width:1410px;
+    height:730px;
+    background-size:cover;
+    text-transform: uppercase;
+      letter-spacing: 1px;
+        color:white;
+}
+
+ .head .navbar-expand-lg .navbar-nav .nav-link
+{
+    font-size:17px;
+    margin-right:15px;
+            color:white;
+}
+
+ .head .navbar-expand-lg .navbar-nav .nav-link:hover
+{
+  color:#FEC503;
+}
+
+.head .navbar-expand-lg .navbar-brand
+{
+    font-size:27px;
+    color:#FEC503;
+    font-weight:600;
+          letter-spacing: 0px;
+}
+
+.head .head-text
+{
+ position:relative;
+    top:210px;
+}
+
+.head .head-text h1
+{
+    font-weight:500;
+    font-size:35px;
+}
+
+.head .head-text p
+{
+    font-size:80px;
+    font-weight:700;
+    color:white;
+}
+
+.head .head-text .btn-group-lg>.btn, .btn-lg
+{
+   padding: 1.2rem 2.6rem;
+    margin-top:20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color:#FFFFF8;
+  background-color: #FED136;
+  border-color: #ffc107;
+    cursor: pointer;
+}
+
+.head .head-text .btn-group-lg>.btn, .btn-lg:hover
+{
+    color:white;
+  background-color: #FEC503;
+  border-color: #FEC503;
+}
+
+/* End Header */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Start Services */
+.services
+{
+    padding-top:80px;
+    padding-bottom:70px;
+}
+
+.services .serv i
+{
+    font-size:70px;
+    margin-bottom:10px;
+    background-color:#FED136;
+    color:#FFFFF8;
+    padding:35px;
+    border-radius:50%;
+}
+
+.services .serv i:hover
+{
+    background-color:#FEC503;
+    color:white;
+}
+/* End Services */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Start PORTFOLIO */
+.PORTFOLIO
+{
+    background-color:#f3f6f9;
+    padding-top:50px;
+    padding-bottom:80px;
+}
+
+.PORTFOLIO .port img
+{
+    width:350px;
+    height:280px;
+    cursor: pointer;
+}
+
+.PORTFOLIO .port h3
+{
+    padding-top:20px;
+}
+
+.PORTFOLIO .port p
+{
+    font-style:italic;
+}
+/* End PORTFOLIO */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Start About */
+.about
+{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.about .priabout 
+{
+text-align: right;
+}
+
+.about .priabout h3,.about .afabout h3 
+{
+font-weight:700;
+}
+
+.about .afabout 
+{
+text-align: left;
+}
+
+.about .img-thumbnail
+{
+    background-color: #f3f6f9;
+}
+
+/* End About */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Start Team */
+.team
+{
+    background-color:#f3f6f9;
+    padding-top:100px;
+    padding-bottom:80px;
+}
+
+ .team .our-team img
+{
+    margin-top:20px;
+    width:220px;
+    height:220px;
+}
+
+.team .our-team
+{
+    margin-bottom:20px;
+}
+
+.team .our-team p
+{
+    padding-bottom:0px;
+}
+
+.team .our-team h3
+{
+    margin-top:25px;
+    font-weight:700;
+}
+
+.team .our-team span i ,.copy span i
+{
+   margin-right:10px;
+    font-size:20px;
+    padding:15px;
+    background-color:#212529;
+    color:white;
+    border-radius:50%;
+    cursor: pointer;
+}
+
+.team .our-team span .fteam ,.copy span .fteam
+{
+    font-size:19px;
+    padding:16px 19px;
+}
+
+.team .our-team span i:hover,.copy span i:hover
+{
+   background-color:#FED136;
+}
+/* End Team */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Start Contact */
+.contact
+{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+/* End Contact */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Start Footer */
+.footer
+{
+    height:720px;
+    width:100%;
+    color:white;
+    padding-top:70px;
+    text-align:center;
+    background-color: #212529;
+    background-image: url(../img/map-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer p
+{
+    color:#a7a0a0;
+}
+
+.footer .form-group .form-control 
+{
+    padding: 1.8rem 1rem;
+    font-size: 1.1rem;
+    border:none;
+    margin-bottom:30px;
+}
+
+.footer .btn-lg
+{
+    font-size: 1.3rem;
+    height:60px;
+    font-weight: 700;
+    line-height: 1px;
+    color:#FFFFF8;
+  background-color: #FED136;
+  border-color: #ffc107;
+    cursor: pointer;
+}
+
+.footer .btn-lg:hover
+{
+    color:white;
+  background-color: #FEC503;
+  border-color: #FEC503;
+}
+
+.footer #fofo
+{
+    height:145px;
+    padding: 0.9rem 1rem;
+    font-size: 1.1rem;
+    border:none;
+    margin-bottom:30px;
+}
+/* End Footer */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Start Copy */
+.copy
+{
+ padding-top:30px;
+    padding-bottom:30px;
+}
+
+.copy .copya a
+{
+    color:black;
+}
+
+.copy .copya a:hover
+{
+    color:yellow;
+}
+/* End Copy */
